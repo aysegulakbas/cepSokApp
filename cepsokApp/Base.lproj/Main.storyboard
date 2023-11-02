@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,19 +21,89 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="urunHucre" id="iOU-R4-1SF">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="urunHucre" id="iOU-R4-1SF" customClass="UrunTableViewCell" customModule="cepsokApp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="180"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="iOU-R4-1SF" id="MED-LL-5la">
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="180"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jPo-QG-kxL">
+                                                    <rect key="frame" x="20" y="11" width="353" height="158"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="amigo" translatesAutoresizingMaskIntoConstraints="NO" id="sv3-I6-aoI">
+                                                            <rect key="frame" x="209" y="29" width="128" height="100"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="100" id="HKO-xj-7Jj"/>
+                                                                <constraint firstAttribute="width" constant="128" id="seE-8A-GaQ"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ADF-MB-u7y">
+                                                            <rect key="frame" x="16" y="20.666666666666671" width="303.33333333333331" height="117.00000000000001"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amigo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0O-4v-eYH">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="105.33333333333333" height="39"/>
+                                                                    <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="30"/>
+                                                                    <color key="textColor" name="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%100 doğal, sağlıklı ve lifli kuruyemişler." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c6r-sh-kxu">
+                                                                    <rect key="frame" x="0.0" y="39" width="303.33333333333331" height="39"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <color key="textColor" name="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWv-EW-L7M">
+                                                                    <rect key="frame" x="0.0" y="78" width="116" height="39"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <buttonConfiguration key="configuration" style="gray" cornerStyle="medium" titleAlignment="center">
+                                                                        <attributedString key="attributedTitle">
+                                                                            <fragment content="Tüm Ürünleri Gör">
+                                                                                <attributes>
+                                                                                    <font key="NSFont" size="14" name="Arial-BoldMT"/>
+                                                                                </attributes>
+                                                                            </fragment>
+                                                                        </attributedString>
+                                                                        <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                                                        <color key="baseForegroundColor" name="textColor"/>
+                                                                        <color key="baseBackgroundColor" name="backgroundColor"/>
+                                                                    </buttonConfiguration>
+                                                                    <connections>
+                                                                        <action selector="gorButton:" destination="iOU-R4-1SF" eventType="touchUpInside" id="zlc-Ex-lVD"/>
+                                                                    </connections>
+                                                                </button>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" name="backgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="sv3-I6-aoI" secondAttribute="trailing" constant="16" id="Pab-3r-SAa"/>
+                                                        <constraint firstItem="ADF-MB-u7y" firstAttribute="leading" secondItem="jPo-QG-kxL" secondAttribute="leading" constant="16" id="SdX-df-Ukc"/>
+                                                        <constraint firstItem="sv3-I6-aoI" firstAttribute="centerY" secondItem="jPo-QG-kxL" secondAttribute="centerY" id="XEA-d3-rYV"/>
+                                                        <constraint firstItem="sv3-I6-aoI" firstAttribute="centerY" secondItem="jPo-QG-kxL" secondAttribute="centerY" id="gWk-K1-veD"/>
+                                                        <constraint firstItem="ADF-MB-u7y" firstAttribute="centerY" secondItem="jPo-QG-kxL" secondAttribute="centerY" id="sWz-Ir-Ice"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="jPo-QG-kxL" firstAttribute="leading" secondItem="MED-LL-5la" secondAttribute="leadingMargin" id="9RM-Vy-1yb"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="jPo-QG-kxL" secondAttribute="trailing" id="SAb-I6-1RQ"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="jPo-QG-kxL" secondAttribute="bottom" id="kgC-xx-1xC"/>
+                                                <constraint firstItem="jPo-QG-kxL" firstAttribute="top" secondItem="MED-LL-5la" secondAttribute="topMargin" id="yTE-zp-Xcv"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="hucreBackground" destination="jPo-QG-kxL" id="xCy-9X-fiT"/>
+                                            <outlet property="urunDescriptionLabel" destination="c6r-sh-kxu" id="lPh-xi-u83"/>
+                                            <outlet property="urunResimImageView" destination="sv3-I6-aoI" id="2yb-H8-NCX"/>
+                                            <outlet property="urunTitleLabel" destination="D0O-4v-eYH" id="1W4-jU-zfN"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.033347143740000001" green="0.96826543060000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" systemColor="labelColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Jiy-lX-E8q" secondAttribute="bottom" id="9c8-cG-DDg"/>
@@ -68,6 +139,13 @@
     </scenes>
     <color key="tintColor" white="0.38" alpha="1" colorSpace="calibratedWhite"/>
     <resources>
+        <image name="amigo" width="66" height="89"/>
+        <namedColor name="backgroundColor">
+            <color red="0.86869698762893677" green="0.92308801412582397" blue="0.9526817798614502" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="textColor">
+            <color red="0.37364321950000001" green="0.4999905825" blue="0.59609436989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
