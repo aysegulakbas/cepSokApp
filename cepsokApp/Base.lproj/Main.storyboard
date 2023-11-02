@@ -113,6 +113,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Cepte Şok Ürünler" id="45i-Qw-HRT"/>
+                    <connections>
+                        <outlet property="urunlerTableView" destination="Jiy-lX-E8q" id="O26-WZ-njr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
