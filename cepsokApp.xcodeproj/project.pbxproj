@@ -17,6 +17,7 @@
 		046969B82AF439600095C5AF /* cepsokAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046969B72AF439600095C5AF /* cepsokAppTests.swift */; };
 		046969C22AF439600095C5AF /* cepsokAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046969C12AF439600095C5AF /* cepsokAppUITests.swift */; };
 		046969C42AF439600095C5AF /* cepsokAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046969C32AF439600095C5AF /* cepsokAppUITestsLaunchTests.swift */; };
+		046969D12AF449D50095C5AF /* Urunler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046969D02AF449D50095C5AF /* Urunler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		046969BD2AF439600095C5AF /* cepsokAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cepsokAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046969C12AF439600095C5AF /* cepsokAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cepsokAppUITests.swift; sourceTree = "<group>"; };
 		046969C32AF439600095C5AF /* cepsokAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cepsokAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		046969D02AF449D50095C5AF /* Urunler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Urunler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				0469699D2AF4395D0095C5AF /* AppDelegate.swift */,
 				0469699F2AF4395D0095C5AF /* SceneDelegate.swift */,
 				046969A12AF4395D0095C5AF /* ViewController.swift */,
+				046969D02AF449D50095C5AF /* Urunler.swift */,
 				046969A32AF4395D0095C5AF /* Main.storyboard */,
 				046969A92AF439600095C5AF /* Assets.xcassets */,
 				046969AB2AF439600095C5AF /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 				046969A82AF4395D0095C5AF /* cepsokApp.xcdatamodeld in Sources */,
 				046969A22AF4395D0095C5AF /* ViewController.swift in Sources */,
 				0469699E2AF4395D0095C5AF /* AppDelegate.swift in Sources */,
+				046969D12AF449D50095C5AF /* Urunler.swift in Sources */,
 				046969A02AF4395D0095C5AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
