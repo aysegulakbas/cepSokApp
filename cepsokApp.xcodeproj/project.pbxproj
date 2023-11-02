@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0469699E2AF4395D0095C5AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469699D2AF4395D0095C5AF /* AppDelegate.swift */; };
+		046969A02AF4395D0095C5AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469699F2AF4395D0095C5AF /* SceneDelegate.swift */; };
+		046969A22AF4395D0095C5AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046969A12AF4395D0095C5AF /* ViewController.swift */; };
+		046969A52AF4395D0095C5AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046969A32AF4395D0095C5AF /* Main.storyboard */; };
+		046969A82AF4395D0095C5AF /* cepsokApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 046969A62AF4395D0095C5AF /* cepsokApp.xcdatamodeld */; };
+		046969AA2AF439600095C5AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046969A92AF439600095C5AF /* Assets.xcassets */; };
+		046969AD2AF439600095C5AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046969AB2AF439600095C5AF /* LaunchScreen.storyboard */; };
+		046969B82AF439600095C5AF /* cepsokAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046969B72AF439600095C5AF /* cepsokAppTests.swift */; };
+		046969C22AF439600095C5AF /* cepsokAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046969C12AF439600095C5AF /* cepsokAppUITests.swift */; };
+		046969C42AF439600095C5AF /* cepsokAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046969C32AF439600095C5AF /* cepsokAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046969B42AF439600095C5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046969922AF4395D0095C5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046969992AF4395D0095C5AF;
+			remoteInfo = cepsokApp;
+		};
+		046969BE2AF439600095C5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046969922AF4395D0095C5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046969992AF4395D0095C5AF;
+			remoteInfo = cepsokApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0469699A2AF4395D0095C5AF /* cepsokApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cepsokApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0469699D2AF4395D0095C5AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0469699F2AF4395D0095C5AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		046969A12AF4395D0095C5AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046969A42AF4395D0095C5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046969A72AF4395D0095C5AF /* cepsokApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cepsokApp.xcdatamodel; sourceTree = "<group>"; };
+		046969A92AF439600095C5AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046969AC2AF439600095C5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046969AE2AF439600095C5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046969B32AF439600095C5AF /* cepsokAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cepsokAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046969B72AF439600095C5AF /* cepsokAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cepsokAppTests.swift; sourceTree = "<group>"; };
+		046969BD2AF439600095C5AF /* cepsokAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cepsokAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046969C12AF439600095C5AF /* cepsokAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cepsokAppUITests.swift; sourceTree = "<group>"; };
+		046969C32AF439600095C5AF /* cepsokAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cepsokAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046969972AF4395D0095C5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046969B02AF439600095C5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046969BA2AF439600095C5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046969912AF4395D0095C5AF = {
+			isa = PBXGroup;
+			children = (
+				0469699C2AF4395D0095C5AF /* cepsokApp */,
+				046969B62AF439600095C5AF /* cepsokAppTests */,
+				046969C02AF439600095C5AF /* cepsokAppUITests */,
+				0469699B2AF4395D0095C5AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0469699B2AF4395D0095C5AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0469699A2AF4395D0095C5AF /* cepsokApp.app */,
+				046969B32AF439600095C5AF /* cepsokAppTests.xctest */,
+				046969BD2AF439600095C5AF /* cepsokAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0469699C2AF4395D0095C5AF /* cepsokApp */ = {
+			isa = PBXGroup;
+			children = (
+				0469699D2AF4395D0095C5AF /* AppDelegate.swift */,
+				0469699F2AF4395D0095C5AF /* SceneDelegate.swift */,
+				046969A12AF4395D0095C5AF /* ViewController.swift */,
+				046969A32AF4395D0095C5AF /* Main.storyboard */,
+				046969A92AF439600095C5AF /* Assets.xcassets */,
+				046969AB2AF439600095C5AF /* LaunchScreen.storyboard */,
+				046969AE2AF439600095C5AF /* Info.plist */,
+				046969A62AF4395D0095C5AF /* cepsokApp.xcdatamodeld */,
+			);
+			path = cepsokApp;
+			sourceTree = "<group>";
+		};
+		046969B62AF439600095C5AF /* cepsokAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				046969B72AF439600095C5AF /* cepsokAppTests.swift */,
+			);
+			path = cepsokAppTests;
+			sourceTree = "<group>";
+		};
+		046969C02AF439600095C5AF /* cepsokAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046969C12AF439600095C5AF /* cepsokAppUITests.swift */,
+				046969C32AF439600095C5AF /* cepsokAppUITestsLaunchTests.swift */,
+			);
+			path = cepsokAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046969992AF4395D0095C5AF /* cepsokApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046969C72AF439600095C5AF /* Build configuration list for PBXNativeTarget "cepsokApp" */;
+			buildPhases = (
+				046969962AF4395D0095C5AF /* Sources */,
+				046969972AF4395D0095C5AF /* Frameworks */,
+				046969982AF4395D0095C5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cepsokApp;
+			productName = cepsokApp;
+			productReference = 0469699A2AF4395D0095C5AF /* cepsokApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046969B22AF439600095C5AF /* cepsokAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046969CA2AF439600095C5AF /* Build configuration list for PBXNativeTarget "cepsokAppTests" */;
+			buildPhases = (
+				046969AF2AF439600095C5AF /* Sources */,
+				046969B02AF439600095C5AF /* Frameworks */,
+				046969B12AF439600095C5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046969B52AF439600095C5AF /* PBXTargetDependency */,
+			);
+			name = cepsokAppTests;
+			productName = cepsokAppTests;
+			productReference = 046969B32AF439600095C5AF /* cepsokAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046969BC2AF439600095C5AF /* cepsokAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046969CD2AF439600095C5AF /* Build configuration list for PBXNativeTarget "cepsokAppUITests" */;
+			buildPhases = (
+				046969B92AF439600095C5AF /* Sources */,
+				046969BA2AF439600095C5AF /* Frameworks */,
+				046969BB2AF439600095C5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046969BF2AF439600095C5AF /* PBXTargetDependency */,
+			);
+			name = cepsokAppUITests;
+			productName = cepsokAppUITests;
+			productReference = 046969BD2AF439600095C5AF /* cepsokAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046969922AF4395D0095C5AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					046969992AF4395D0095C5AF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					046969B22AF439600095C5AF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 046969992AF4395D0095C5AF;
+					};
+					046969BC2AF439600095C5AF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 046969992AF4395D0095C5AF;
+					};
+				};
+			};
+			buildConfigurationList = 046969952AF4395D0095C5AF /* Build configuration list for PBXProject "cepsokApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046969912AF4395D0095C5AF;
+			productRefGroup = 0469699B2AF4395D0095C5AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046969992AF4395D0095C5AF /* cepsokApp */,
+				046969B22AF439600095C5AF /* cepsokAppTests */,
+				046969BC2AF439600095C5AF /* cepsokAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046969982AF4395D0095C5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046969AD2AF439600095C5AF /* LaunchScreen.storyboard in Resources */,
+				046969AA2AF439600095C5AF /* Assets.xcassets in Resources */,
+				046969A52AF4395D0095C5AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046969B12AF439600095C5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046969BB2AF439600095C5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046969962AF4395D0095C5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046969A82AF4395D0095C5AF /* cepsokApp.xcdatamodeld in Sources */,
+				046969A22AF4395D0095C5AF /* ViewController.swift in Sources */,
+				0469699E2AF4395D0095C5AF /* AppDelegate.swift in Sources */,
+				046969A02AF4395D0095C5AF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046969AF2AF439600095C5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046969B82AF439600095C5AF /* cepsokAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046969B92AF439600095C5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046969C22AF439600095C5AF /* cepsokAppUITests.swift in Sources */,
+				046969C42AF439600095C5AF /* cepsokAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046969B52AF439600095C5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046969992AF4395D0095C5AF /* cepsokApp */;
+			targetProxy = 046969B42AF439600095C5AF /* PBXContainerItemProxy */;
+		};
+		046969BF2AF439600095C5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046969992AF4395D0095C5AF /* cepsokApp */;
+			targetProxy = 046969BE2AF439600095C5AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046969A32AF4395D0095C5AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046969A42AF4395D0095C5AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046969AB2AF439600095C5AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046969AC2AF439600095C5AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046969C52AF439600095C5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046969C62AF439600095C5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046969C82AF439600095C5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cepsokApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.cepsokApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046969C92AF439600095C5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = cepsokApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.cepsokApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046969CB2AF439600095C5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.cepsokAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cepsokApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cepsokApp";
+			};
+			name = Debug;
+		};
+		046969CC2AF439600095C5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.cepsokAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cepsokApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cepsokApp";
+			};
+			name = Release;
+		};
+		046969CE2AF439600095C5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.cepsokAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cepsokApp;
+			};
+			name = Debug;
+		};
+		046969CF2AF439600095C5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.cepsokAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cepsokApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046969952AF4395D0095C5AF /* Build configuration list for PBXProject "cepsokApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046969C52AF439600095C5AF /* Debug */,
+				046969C62AF439600095C5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046969C72AF439600095C5AF /* Build configuration list for PBXNativeTarget "cepsokApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046969C82AF439600095C5AF /* Debug */,
+				046969C92AF439600095C5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046969CA2AF439600095C5AF /* Build configuration list for PBXNativeTarget "cepsokAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046969CB2AF439600095C5AF /* Debug */,
+				046969CC2AF439600095C5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046969CD2AF439600095C5AF /* Build configuration list for PBXNativeTarget "cepsokAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046969CE2AF439600095C5AF /* Debug */,
+				046969CF2AF439600095C5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		046969A62AF4395D0095C5AF /* cepsokApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				046969A72AF4395D0095C5AF /* cepsokApp.xcdatamodel */,
+			);
+			currentVersion = 046969A72AF4395D0095C5AF /* cepsokApp.xcdatamodel */;
+			path = cepsokApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 046969922AF4395D0095C5AF /* Project object */;
+}
