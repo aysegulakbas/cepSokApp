@@ -19,7 +19,17 @@ class ViewController: UIViewController {
         urunlerTableView.delegate = self // urunlertableview ile extensionlar arasındaki bağı sağlamak için yazdım.
         urunlerTableView.dataSource = self
         
+        self.navigationItem.title = "Cepte Şok Ürünler"
+                let appearance = UINavigationBarAppearance()
+                // Arka Plan Rengi
+                appearance.backgroundColor = UIColor(named: "barColor")
         
+        
+                
+        navigationController?.navigationBar.standardAppearance = appearance
+        navigationController?.navigationBar.compactAppearance = appearance
+        navigationController?.navigationBar.scrollEdgeAppearance = appearance
+
         
         
         let u1 = Urunler(urun_id: 1, urun_title: "Amigo", urun_resim_ad: "amigo", urun_description: "%100 doğal, sağlıklı ve lifli kuruyemişler.",urun_gorButton: "Tüm Ürünleri Gör")
