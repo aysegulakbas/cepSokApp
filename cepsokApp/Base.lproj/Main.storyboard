@@ -37,38 +37,39 @@
                                                                 <constraint firstAttribute="width" constant="128" id="seE-8A-GaQ"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="ADF-MB-u7y">
-                                                            <rect key="frame" x="16" y="22.666666666666664" width="205.33333333333334" height="112.66666666666669"/>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ADF-MB-u7y">
+                                                            <rect key="frame" x="0.0" y="0.0" width="201" height="158"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amigo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0O-4v-eYH">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="105.33333333333333" height="39"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amigo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0O-4v-eYH">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="201" height="39"/>
                                                                     <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="30"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bir takım yazılar var burada" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHj-bc-CMv">
-                                                                    <rect key="frame" x="0.0" y="51.000000000000007" width="205.33333333333334" height="20.333333333333336"/>
+                                                                    <rect key="frame" x="0.0" y="49" width="201" height="40.666666666666657"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWv-EW-L7M">
-                                                                    <rect key="frame" x="0.0" y="83.333333333333343" width="140" height="29.333333333333329"/>
+                                                                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWv-EW-L7M">
+                                                                    <rect key="frame" x="0.0" y="99.666666666666671" width="201" height="58.333333333333329"/>
                                                                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                    <buttonConfiguration key="configuration" style="plain" title="Tüm Ürünleri Gör" cornerStyle="medium" titleAlignment="automatic">
-                                                                        <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
-                                                                    </buttonConfiguration>
+                                                                    <state key="normal" title="Tüm Ürünleri Gör">
+                                                                        <color key="titleColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                    </state>
                                                                 </button>
                                                             </subviews>
                                                         </stackView>
                                                     </subviews>
                                                     <constraints>
+                                                        <constraint firstItem="sv3-I6-aoI" firstAttribute="leading" secondItem="ADF-MB-u7y" secondAttribute="trailing" constant="8" id="2pe-wE-yxD"/>
+                                                        <constraint firstAttribute="bottom" secondItem="ADF-MB-u7y" secondAttribute="bottom" id="OkH-hZ-5jG"/>
                                                         <constraint firstAttribute="trailing" secondItem="sv3-I6-aoI" secondAttribute="trailing" constant="16" id="Pab-3r-SAa"/>
-                                                        <constraint firstItem="ADF-MB-u7y" firstAttribute="leading" secondItem="jPo-QG-kxL" secondAttribute="leading" constant="16" id="SdX-df-Ukc"/>
                                                         <constraint firstItem="sv3-I6-aoI" firstAttribute="centerY" secondItem="jPo-QG-kxL" secondAttribute="centerY" id="XEA-d3-rYV"/>
                                                         <constraint firstItem="sv3-I6-aoI" firstAttribute="centerY" secondItem="jPo-QG-kxL" secondAttribute="centerY" id="gWk-K1-veD"/>
-                                                        <constraint firstItem="ADF-MB-u7y" firstAttribute="centerY" secondItem="sv3-I6-aoI" secondAttribute="centerY" id="hy1-iZ-Ofp"/>
-                                                        <constraint firstItem="ADF-MB-u7y" firstAttribute="top" secondItem="jPo-QG-kxL" secondAttribute="top" constant="22.666666666666657" id="pHT-rN-d6P"/>
+                                                        <constraint firstItem="ADF-MB-u7y" firstAttribute="leading" secondItem="jPo-QG-kxL" secondAttribute="leading" id="mr0-Ql-FEe"/>
+                                                        <constraint firstItem="ADF-MB-u7y" firstAttribute="top" secondItem="jPo-QG-kxL" secondAttribute="top" id="xqj-Q8-tWV"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>

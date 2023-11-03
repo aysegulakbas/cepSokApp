@@ -27,9 +27,10 @@ class ViewController: UIViewController {
         let u2 = Urunler(urun_id: 2, urun_title: "Mis", urun_resim_ad: "mis", urun_description: "%100 sağlıklı ve besleyici süt ürünleri.",urun_gorButton: "Tüm Ürünleri Gör")
         urunlerListe.append(u1)
         urunlerListe.append(u2)
+        
     }
-
-
+    
+   
 }
 
 
@@ -46,9 +47,8 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
         cell.urunResimImageView.image = UIImage(named: urun.urun_resim_ad!)
         cell.urunTitleLabel.text = urun.urun_title!
         cell.urunDescriptionLabel.text = urun.urun_description!
-        cell.urunDescriptionLabel.numberOfLines = 0
+        //cell.urunDescriptionLabel.numberOfLines = 0
        
-        
         
         if indexPath.row % 2 == 0 {
             cell.urunTitleLabel.textColor = UIColor(named: "textColor") // Çift sıradaki ürünlerin başlığı mavi renkte olacak
@@ -56,7 +56,7 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
             cell.gorButton.backgroundColor = UIColor(named: "backgroundColor")
             cell.backgroundColor = UIColor(named: "backgroundColor")
             cell.gorButton.layer.borderColor = UIColor(named: "textColor")?.cgColor
-            //cell.gorButton.setTitleColor(UIColor(named: "textColor"), for: .normal)
+            cell.gorButton.setTitleColor(UIColor(named: "textColor"), for: .normal)
 
 
             
@@ -66,7 +66,7 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
              cell.gorButton.backgroundColor = UIColor(named: "background_Color")
              cell.backgroundColor = UIColor(named: "background_Color")
              cell.gorButton.layer.borderColor = UIColor(named: "text_Color")?.cgColor
-             // cell.gorButton.setTitleColor(UIColor.red , for: .normal)
+             cell.gorButton.setTitleColor(UIColor(named:"text_Color") , for: .normal)
              
              
          }
